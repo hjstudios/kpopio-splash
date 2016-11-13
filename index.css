@@ -1,0 +1,90 @@
+html, body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: rgba(165, 1, 111, 0.5);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.left {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.title {
+  float: right;
+  padding-top: 23%;
+  width: 80%;
+  margin-top: 30%;
+  margin-bottom: 5%;
+  background: url(images/title.svg) no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.playstore {
+  float: right;
+  padding-top: 14%;
+  width: 40%;
+  margin: 0 20%;
+  background: url(images/playstore.png) no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.playstore:hover, .playstore:focus {
+  opacity: 0.85;
+  -webkit-transition: 0.2s linear opacity;  
+  -moz-transition: 0.2s linear opacity;
+  -ms-transition: 0.2s linear opacity; 
+  -o-transition: 0.2s linear opacity;
+  transition: 0.2s linear opacity;
+}
+
+.copy {
+  float: right;
+  width: 80%;
+  margin-top: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.phone {
+  float: right;
+  padding-top: 65%;
+  width: 45%;
+  margin-top: 7%;
+  background: url(images/phone.png) no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}

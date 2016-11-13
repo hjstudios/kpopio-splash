@@ -1,0 +1,40 @@
+
+@media only screen and (max-width: 500px) {
+
+  html, body {
+    height: 110%;
+  }
+
+  .left {
+    position: absolute;
+    float: none;
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .title, .playstore {
+    float: none;
+    width: 100%;
+  }
+
+  .title {
+    margin-top: 13%;
+  }
+
+  .playstore {
+    margin: 0 auto;
+  }
+
+  .copy {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .phone {
+    float: none;
+    position: absolute;
+    top: 35%;
+    padding-top: 130%;
+    width: 100%;
+  }
+} 
