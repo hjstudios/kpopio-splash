@@ -11,7 +11,7 @@ html, body {
   padding: 0;
   overflow: hidden;
   font-family: 'Lato', sans-serif;
-  color: white;
+  color: black;
 }
 
 html {
@@ -40,9 +40,20 @@ div {
 .main {
   position: relative;
   z-index: 1;
-  max-width: 800px;
+  max-width: 950px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+.title {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
 }
 
 .left {
@@ -53,20 +64,14 @@ div {
   float: right;
 }
 
-.vs {
-  width: 20%;
-  font-size: 70px;
-  margin-top: 185px;
-}
-
-.section, .vs {
-  display: inline-block;
-  text-align: center;
-}
-
 .section {
-  width: 40%;
-  font-size: 90px;
+  display: inline-block;
+  width: 49%;
+  max-height: 450px;
+  padding: 40px 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 img {
@@ -75,22 +80,28 @@ img {
 }
 
 .group-name {
-  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 50px;
+  margin-left: 10px;
   font-weight: bold;
 }
 
 .group-pic {
-  width: 200px;
-  height: 200px;
+  display: block;
+  width: 210px;
+  height: 210px;
+  margin-bottom: 10px;
   border-radius: 200px;
 }
 
 .vote-icon {
-  width: 100px;
-  height: 100px;
-  margin-top: 20px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-bottom: -10px;
 }
 
 .count {
   font-size: 80px;
+  font-weight: bold;
 }
